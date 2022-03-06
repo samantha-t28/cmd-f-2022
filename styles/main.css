@@ -4,8 +4,10 @@
 |=====================
 */
 body {
+    position: relative;
     display: flex;
     flex-direction: column;
+    background-color: #080835;
     background-image: url(../images/earth-cmdf-NEW.svg);
     background-position: center;
     background-size: cover;
@@ -13,7 +15,7 @@ body {
     background-attachment: fixed;
     font-family: 'Poppins', sans-serif;
     width: 100vw;
-    padding: 0 150px;
+    height: 100%;
 }
 
 h1 {
@@ -227,10 +229,10 @@ p {
     display: flex;
     width: 100vw;
     height: 120px;
-    position: fixed;
+    position: absolute;
     justify-content: center;
     left: 0px;
-    top: 904px;
+    bottom: 0;
     margin-top: 25px;
     background-color: rgb(148, 176, 253);
 }
