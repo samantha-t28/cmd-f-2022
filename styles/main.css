@@ -3,6 +3,9 @@
 | GLOBAL
 |=====================
 */
+body {
+    width: 100vw;
+}
 
 
 /*
@@ -73,3 +76,10 @@
 | FOOTER
 |=====================
 */
+#footer {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+}
