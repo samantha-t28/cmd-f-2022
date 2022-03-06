@@ -17,6 +17,47 @@ h1 {
 h2 {
     font-size: 60px;
     font-variant: small-caps;
+
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+    padding: 300px 100px 200px;
+    width: 100vw;
+}
+
+h3 { 
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left; 
+    padding-bottom: 16px;
+}
+
+em {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
 }
 
 /*
@@ -55,12 +96,38 @@ h2 {
     padding: 30px 50px;
 }
 
+.is-flex {
+    display: flex;
+}
+
+/*
+|=====================
+| SECTION HELPERS
+|=====================
+*/
+
+.card {
+    width: 350px;
+    height: 450px;
+    background: #C4C4C4;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-right
+
+.col-left
+
 
 /*
 |=====================
 | QUESTIONS #1
 |=====================
 */
+
 
 /*
 |=====================
@@ -112,8 +179,12 @@ h2 {
 */
 #footer {
     display: flex;
-    position: absolute;
+    width: 100vw;
+    height: 120px;
+    position: fixed;
     justify-content: center;
-    bottom: 0;
-    right: 0;
+    left: 0px;
+    top: 904px;
+    margin-top: 25px;
+    background-color: rgb(148, 176, 253);
 }
