@@ -126,6 +126,9 @@ p {
 }
 
 .nxt-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: right;
     width: 200px;
     height: 60px;
