@@ -4,9 +4,20 @@
 |=====================
 */
 body {
+    font-family: 'Poppins', sans-serif;
     width: 100vw;
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 6em;
+    font-variant: small-caps;   
+}
+
+h2 {
+    font-size: 60px;
+    font-variant: small-caps;
+}
 
 /*
 |=====================
@@ -14,12 +25,35 @@ body {
 |=====================
 */
 
+/*
+|=====================
+| CLICK ME BUTTON
+|=====================
+*/
+.clickme {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    background-color: black;
+}
 
 /*
 |=====================
 | GRID HELPERS
 |=====================
 */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 300px 0px 155px;
+}
+
+.cont-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+}
 
 
 /*
