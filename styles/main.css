@@ -6,15 +6,19 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100vw;
     padding: 0 150px;
+    background-color: blue;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 6em;
-    font-variant: small-caps;   
+    letter-spacing: 2.2px;
+    font-variant: small-caps;
+    color: #FFF;
+    text-shadow: 0px 6px 16px #000;
 }
 
 h2 {
@@ -107,6 +111,13 @@ p {
     display: flex;
 }
 
+.cont-btn {
+
+    position: relative;
+    display: flex;
+    justify-items: flex-end;
+}
+
 /*
 |=====================
 | SECTION HELPERS
@@ -116,7 +127,7 @@ p {
 .card {
     width: 350px;
     height: 450px;
-    background: #C4C4C4;
+    background: #FFD66E;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 35px;
     margin: 60px 100px 15px;
@@ -132,7 +143,8 @@ p {
     float: right;
     width: 200px;
     height: 60px;
-    background: #C4C4C4;
+    color: #fff;
+    background: #FF8A00;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 35px;
     margin: 60px 100px;
@@ -142,7 +154,21 @@ p {
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: 550;
+    position: absolute;
+    top: -180px;
+    left: 75%;
 }
+
+/*
+|=====================
+| HOVER
+|=====================
+*/
+.nxt-btn:hover {
+    background-color: #FFD66E;
+    color: #000;
+}
+
 
 .col-right
 
