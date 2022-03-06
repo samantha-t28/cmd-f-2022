@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url(images/earth-cmdf-NEW.svg);
+    background-image: url(../images/earth-cmdf-NEW.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
