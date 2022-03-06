@@ -6,7 +6,12 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/earth-cmdf-NEW.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
     width: 100vw;
     padding: 0 150px;
     background-color: blue;
@@ -88,6 +93,13 @@ p {
     align-items: center;
     float: inherit;
 }
+ #spaceship {
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     height: 300px;
+     align-items: center;
+ }
 
 /*
 |=====================
