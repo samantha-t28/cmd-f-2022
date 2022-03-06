@@ -119,6 +119,11 @@ a {
 | GRID HELPERS
 |=====================
 */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 300px 0px 155px;
+}
 
 .container {
     display: flex;
