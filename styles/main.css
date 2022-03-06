@@ -105,6 +105,13 @@ a {
     align-items: center;
     float: inherit;
 }
+ #spaceship {
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+     height: 300px;
+     align-items: center;
+ }
 
  #spaceship {
      display: flex;
